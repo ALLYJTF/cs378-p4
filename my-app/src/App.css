@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+
+* {
+  font-family: Quicksand;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box {
+  border: lightgray 1px solid;
+  margin: 5px 25%;
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.artist_list {
+  border: lightgray 1px solid;
+  margin: 5px 25%;
+  padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.music_artists {
+  font-family: Quicksand;
+
+  display: inline-block;
+  padding: 3px 15px;
+
+  margin-right: 5px;
+  margin-bottom: 5px;
+
+  background-color: #eef7cb;
+  border: 1px solid grey;
+  border-radius: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+  font-family: Quicksand;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  height: 20px;
+  width: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.error {
+  font-family: Quicksand;
+
+  background-color: lightpink;
+}
+
+.btns_list {
+  margin: 15px 25%;
+}
+
+.save_btn {
+  margin-right: 5px;
+  padding: 3px 10px;
+  font-weight: bold;
+  float: right;
+}
+
+.logout_btn {
+  margin-right: 5px;
+  padding: 5px 10px;
+  font-weight: bold;
+  float: right;
 }

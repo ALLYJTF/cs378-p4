@@ -7,7 +7,7 @@ import {
 } from "firebase/auth";
 import { auth } from "./StartFirebase";
 
-import FavoriteArtists from "../components/FavArtists";
+import FavoriteArtists from "../components/FavoriteArtist";
 
 export default function LoginPage() {
   // ---------------------------------------------------------------------------
